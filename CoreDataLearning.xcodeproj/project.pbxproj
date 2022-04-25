@@ -14,8 +14,10 @@
 		69194015280FE8FF00B17EA8 /* CoreDataLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69194013280FE8FF00B17EA8 /* CoreDataLearning.xcdatamodeld */; };
 		69194017280FE90000B17EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69194016280FE90000B17EA8 /* Assets.xcassets */; };
 		6919401A280FE90000B17EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69194018280FE90000B17EA8 /* LaunchScreen.storyboard */; };
-		69194023280FEA0F00B17EA8 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69194021280FEA0F00B17EA8 /* Person+CoreDataClass.swift */; };
-		69194024280FEA0F00B17EA8 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69194022280FEA0F00B17EA8 /* Person+CoreDataProperties.swift */; };
+		6919402A28166BE500B17EA8 /* Family+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919402628166BE500B17EA8 /* Family+CoreDataClass.swift */; };
+		6919402B28166BE500B17EA8 /* Family+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919402728166BE500B17EA8 /* Family+CoreDataProperties.swift */; };
+		6919402C28166BE500B17EA8 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919402828166BE500B17EA8 /* Person+CoreDataClass.swift */; };
+		6919402D28166BE500B17EA8 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919402928166BE500B17EA8 /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		69194016280FE90000B17EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69194019280FE90000B17EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6919401B280FE90000B17EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69194021280FEA0F00B17EA8 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
-		69194022280FEA0F00B17EA8 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6919402628166BE500B17EA8 /* Family+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6919402728166BE500B17EA8 /* Family+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6919402828166BE500B17EA8 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6919402928166BE500B17EA8 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,10 @@
 		69194025280FEA2700B17EA8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				69194021280FEA0F00B17EA8 /* Person+CoreDataClass.swift */,
-				69194022280FEA0F00B17EA8 /* Person+CoreDataProperties.swift */,
+				6919402628166BE500B17EA8 /* Family+CoreDataClass.swift */,
+				6919402728166BE500B17EA8 /* Family+CoreDataProperties.swift */,
+				6919402828166BE500B17EA8 /* Person+CoreDataClass.swift */,
+				6919402928166BE500B17EA8 /* Person+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,9 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				69194015280FE8FF00B17EA8 /* CoreDataLearning.xcdatamodeld in Sources */,
+				6919402C28166BE500B17EA8 /* Person+CoreDataClass.swift in Sources */,
+				6919402A28166BE500B17EA8 /* Family+CoreDataClass.swift in Sources */,
 				6919400F280FE8FF00B17EA8 /* ViewController.swift in Sources */,
-				69194024280FEA0F00B17EA8 /* Person+CoreDataProperties.swift in Sources */,
-				69194023280FEA0F00B17EA8 /* Person+CoreDataClass.swift in Sources */,
+				6919402D28166BE500B17EA8 /* Person+CoreDataProperties.swift in Sources */,
+				6919402B28166BE500B17EA8 /* Family+CoreDataProperties.swift in Sources */,
 				6919400B280FE8FF00B17EA8 /* AppDelegate.swift in Sources */,
 				6919400D280FE8FF00B17EA8 /* SceneDelegate.swift in Sources */,
 			);

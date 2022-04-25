@@ -2,7 +2,7 @@
 //  Person+CoreDataProperties.swift
 //  CoreDataLearning
 //
-//  Created by Cumulations Technologies Private Limited on 20/04/22.
+//  Created by Cumulations Technologies Private Limited on 25/04/22.
 //
 //
 
@@ -19,6 +19,7 @@ extension Person {
     @NSManaged public var name: String?
     @NSManaged public var gender: String?
     @NSManaged public var age: Int64
+    @NSManaged public var family: Family?
 
 }
 

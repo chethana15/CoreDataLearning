@@ -24,8 +24,28 @@ class ViewController: UIViewController {
         //get access from core data persistent container
        // (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext
         fetchData()
+        relationship()
     }
 
+    func relationship(){
+        
+        //create family
+        
+        var family = Family(context: context)
+        family.name = "some family"
+        //create person
+        
+        var person = Person(context: context)
+        person.name = "LISA"
+        person.family
+        //create relationship between person and family
+        //person.family = family
+        family.addToPeople(person)//add person to family
+        
+        //save context
+        try! context.save()
+    }
+    
     func fetchData(){
         //fetch data from core data and then display the data on tableview
         do
@@ -38,6 +58,7 @@ class ViewController: UIViewController {
 //            request.predicate = pred
             
             let sort = NSSortDescriptor(key: "name", ascending: true)
+//            let sort = NSSortDescriptor(key: "name", ascending: false)
             request.sortDescriptors = [sort]
 
             
